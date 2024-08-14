@@ -1,0 +1,58 @@
+.connect {
+  padding-bottom: 128px;
+}
+
+.connect_title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 112%;
+  margin-bottom: 16px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.connect_text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 178%;
+  margin-bottom: 40px;
+}
+
+.connect_button {
+  @include button;
+}
+
+.connect_button:hover{
+  background-color: $color-g;
+}
+
+
+.connect_block {
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .connect_block {
+    width: 676px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .connect {
+    padding-bottom: 150px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .connect_title {
+    font-size: 42px;
+    line-height: 114%;
+    width: 100%;
+  }
+
+  .connect_text {
+    font-size: 20px;
+    line-height: 160%;
+  }
+}
